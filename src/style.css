@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.beer-img img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.beer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid green;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.beer-info {
+  height: auto;
+  width: 250px;
+}
+.page-box {
+  margin-bottom: 2rem;
+}
+
+.page-box p {
+  display: inline;
+  margin-right: 1rem;
+}
